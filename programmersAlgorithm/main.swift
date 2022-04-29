@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print("programmers의 Algorithm 문제를 해결합니다.")
 
