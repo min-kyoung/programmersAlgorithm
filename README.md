@@ -39,6 +39,19 @@ programmers의 알고리즘 문제를 해결합니다.
    let ascArray = array.sorted() // 기본은 오름차순 정렬
    let descArray = array.sorted(by: >) // 내림차순 정렬
    ```
+* 메소드
+   * prefix 
+      ```swift
+      prefix(_ maxLength: Int) // 처음부터 maxLength까지 출력
+      prefix(upTo end: Int) // 처음부터 지정된 위치까지 출력(해당 위치는 포함하지 않음)
+      prefix(through position: Int) // 처음부터 지정된 위치까지 출력(해당 위치도 포함)
+      prefix(while predicate: (Element) -> Bool) // 요소를 포함해야 하는 경우 true, 포함하지 않을 경우 false
+      ```
+   * suffix 
+      ```swift
+      suffix(_ maxLength: Int) // 뒤에서부터 maxLength개 출력
+      suffix(from start: Int) // Start Index부터 끝까지 출력
+      ```
 [Higher order function] 
 * 고차함수. 전달인자로 함수를 전달받거나, 함수 실행의 결과로 함수를 리턴하는 함수이다.
 * **map**
