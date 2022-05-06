@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A92F5275282110FE00656E6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F5274282110FE00656E6F /* main.swift */; };
+		A9406C492824DFA7000D29DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9406C482824DFA7000D29DD /* main.swift */; };
 		A95650E5281FFD1C00F7FECA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95650E4281FFD1C00F7FECA /* main.swift */; };
 		A962CA0E282223CC00EBB658 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962CA0D282223CC00EBB658 /* main.swift */; };
 		A972B0B8281BF34D00765E3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972B0B7281BF34D00765E3E /* main.swift */; };
@@ -18,6 +19,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A92F5270282110FE00656E6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A9406C442824DFA7000D29DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -85,6 +95,8 @@
 /* Begin PBXFileReference section */
 		A92F5272282110FE00656E6F /* HidePhoneNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HidePhoneNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92F5274282110FE00656E6F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A9406C462824DFA7000D29DD /* CountAndSumOfDivisor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CountAndSumOfDivisor; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9406C482824DFA7000D29DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A95650E2281FFD1C00F7FECA /* FindTheNumberRemaining 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FindTheNumberRemaining 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95650E4281FFD1C00F7FECA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A962CA0B282223CC00EBB658 /* SortStringsInDescendingOrder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortStringsInDescendingOrder; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +113,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A92F526F282110FE00656E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9406C432824DFA7000D29DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,6 +179,14 @@
 			path = HidePhoneNumber;
 			sourceTree = "<group>";
 		};
+		A9406C472824DFA7000D29DD /* CountAndSumOfDivisor */ = {
+			isa = PBXGroup;
+			children = (
+				A9406C482824DFA7000D29DD /* main.swift */,
+			);
+			path = CountAndSumOfDivisor;
+			sourceTree = "<group>";
+		};
 		A95650E3281FFD1C00F7FECA /* FindTheNumberRemaining 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +213,7 @@
 				A92F5273282110FE00656E6F /* HidePhoneNumber */,
 				A962CA0C282223CC00EBB658 /* SortStringsInDescendingOrder */,
 				A9B9AF072823818E00DE7630 /* SumOfDivisor */,
+				A9406C472824DFA7000D29DD /* CountAndSumOfDivisor */,
 				A972B0B5281BF34D00765E3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,6 +228,7 @@
 				A92F5272282110FE00656E6F /* HidePhoneNumber */,
 				A962CA0B282223CC00EBB658 /* SortStringsInDescendingOrder */,
 				A9B9AF062823818E00DE7630 /* SumOfDivisor */,
+				A9406C462824DFA7000D29DD /* CountAndSumOfDivisor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +283,23 @@
 			name = HidePhoneNumber;
 			productName = HidePhoneNumber;
 			productReference = A92F5272282110FE00656E6F /* HidePhoneNumber */;
+			productType = "com.apple.product-type.tool";
+		};
+		A9406C452824DFA7000D29DD /* CountAndSumOfDivisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9406C4C2824DFA7000D29DD /* Build configuration list for PBXNativeTarget "CountAndSumOfDivisor" */;
+			buildPhases = (
+				A9406C422824DFA7000D29DD /* Sources */,
+				A9406C432824DFA7000D29DD /* Frameworks */,
+				A9406C442824DFA7000D29DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountAndSumOfDivisor;
+			productName = CountAndSumOfDivisor;
+			productReference = A9406C462824DFA7000D29DD /* CountAndSumOfDivisor */;
 			productType = "com.apple.product-type.tool";
 		};
 		A95650E1281FFD1C00F7FECA /* FindTheNumberRemaining 1 */ = {
@@ -371,6 +417,9 @@
 					A92F5271282110FE00656E6F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					A9406C452824DFA7000D29DD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A95650E1281FFD1C00F7FECA = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -411,6 +460,7 @@
 				A92F5271282110FE00656E6F /* HidePhoneNumber */,
 				A962CA0A282223CC00EBB658 /* SortStringsInDescendingOrder */,
 				A9B9AF052823818E00DE7630 /* SumOfDivisor */,
+				A9406C452824DFA7000D29DD /* CountAndSumOfDivisor */,
 			);
 		};
 /* End PBXProject section */
@@ -421,6 +471,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92F5275282110FE00656E6F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9406C422824DFA7000D29DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9406C492824DFA7000D29DD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +545,28 @@
 			name = Debug;
 		};
 		A92F5277282110FE00656E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A9406C4A2824DFA7000D29DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A9406C4B2824DFA7000D29DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -752,6 +832,15 @@
 			buildConfigurations = (
 				A92F5276282110FE00656E6F /* Debug */,
 				A92F5277282110FE00656E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9406C4C2824DFA7000D29DD /* Build configuration list for PBXNativeTarget "CountAndSumOfDivisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9406C4A2824DFA7000D29DD /* Debug */,
+				A9406C4B2824DFA7000D29DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
