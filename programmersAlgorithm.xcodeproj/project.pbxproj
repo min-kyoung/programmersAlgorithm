@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A927B04528291F1A0091CE57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A927B04428291F1A0091CE57 /* main.swift */; };
 		A92F5275282110FE00656E6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F5274282110FE00656E6F /* main.swift */; };
 		A9406C492824DFA7000D29DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9406C482824DFA7000D29DD /* main.swift */; };
 		A952C43C2827D24500FB1308 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952C43B2827D24500FB1308 /* main.swift */; };
@@ -22,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A927B04028291F1A0091CE57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A92F5270282110FE00656E6F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +143,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A927B04228291F1A0091CE57 /* NumberOfPAndYInString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberOfPAndYInString; sourceTree = BUILT_PRODUCTS_DIR; };
+		A927B04428291F1A0091CE57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A92F5272282110FE00656E6F /* HidePhoneNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HidePhoneNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92F5274282110FE00656E6F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A9406C462824DFA7000D29DD /* CountAndSumOfDivisor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CountAndSumOfDivisor; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +172,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A927B03F28291F1A0091CE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A92F526F282110FE00656E6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +266,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A927B04328291F1A0091CE57 /* NumberOfPAndYInString */ = {
+			isa = PBXGroup;
+			children = (
+				A927B04428291F1A0091CE57 /* main.swift */,
+			);
+			path = NumberOfPAndYInString;
+			sourceTree = "<group>";
+		};
 		A92F5273282110FE00656E6F /* HidePhoneNumber */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +345,7 @@
 				A952C43A2827D24500FB1308 /* FindForKim */,
 				A952C4452827D45A00FB1308 /* SumOfPositionalNumber */,
 				A952C4502827DE2C00FB1308 /* IntegerDescendingSort */,
+				A927B04328291F1A0091CE57 /* NumberOfPAndYInString */,
 				A972B0B5281BF34D00765E3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -337,6 +365,7 @@
 				A952C4392827D24500FB1308 /* FindForKim */,
 				A952C4442827D45A00FB1308 /* SumOfPositionalNumber */,
 				A952C44F2827DE2C00FB1308 /* IntegerDescendingSort */,
+				A927B04228291F1A0091CE57 /* NumberOfPAndYInString */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -384,6 +413,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A927B04128291F1A0091CE57 /* NumberOfPAndYInString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A927B04828291F1A0091CE57 /* Build configuration list for PBXNativeTarget "NumberOfPAndYInString" */;
+			buildPhases = (
+				A927B03E28291F1A0091CE57 /* Sources */,
+				A927B03F28291F1A0091CE57 /* Frameworks */,
+				A927B04028291F1A0091CE57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberOfPAndYInString;
+			productName = NumberOfPAndYInString;
+			productReference = A927B04228291F1A0091CE57 /* NumberOfPAndYInString */;
+			productType = "com.apple.product-type.tool";
+		};
 		A92F5271282110FE00656E6F /* HidePhoneNumber */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A92F5278282110FE00656E6F /* Build configuration list for PBXNativeTarget "HidePhoneNumber" */;
@@ -598,6 +644,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					A927B04128291F1A0091CE57 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A92F5271282110FE00656E6F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -661,11 +710,20 @@
 				A952C4382827D24500FB1308 /* FindForKim */,
 				A952C4432827D45A00FB1308 /* SumOfPositionalNumber */,
 				A952C44E2827DE2C00FB1308 /* IntegerDescendingSort */,
+				A927B04128291F1A0091CE57 /* NumberOfPAndYInString */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A927B03E28291F1A0091CE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A927B04528291F1A0091CE57 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A92F526E282110FE00656E6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -765,6 +823,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A927B04628291F1A0091CE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A927B04728291F1A0091CE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A92F5276282110FE00656E6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1147,6 +1227,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A927B04828291F1A0091CE57 /* Build configuration list for PBXNativeTarget "NumberOfPAndYInString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A927B04628291F1A0091CE57 /* Debug */,
+				A927B04728291F1A0091CE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A92F5278282110FE00656E6F /* Build configuration list for PBXNativeTarget "HidePhoneNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
