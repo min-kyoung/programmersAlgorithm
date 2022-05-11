@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A908C458282BA7F4002C269D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A908C457282BA7F4002C269D /* main.swift */; };
 		A927B04528291F1A0091CE57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A927B04428291F1A0091CE57 /* main.swift */; };
 		A92F5275282110FE00656E6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F5274282110FE00656E6F /* main.swift */; };
 		A9406C492824DFA7000D29DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9406C482824DFA7000D29DD /* main.swift */; };
@@ -24,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A908C453282BA7F4002C269D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A927B04028291F1A0091CE57 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +163,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A908C455282BA7F4002C269D /* KthNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KthNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908C457282BA7F4002C269D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A927B04228291F1A0091CE57 /* NumberOfPAndYInString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberOfPAndYInString; sourceTree = BUILT_PRODUCTS_DIR; };
 		A927B04428291F1A0091CE57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A92F5272282110FE00656E6F /* HidePhoneNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HidePhoneNumber; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +196,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A908C452282BA7F4002C269D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A927B03F28291F1A0091CE57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +304,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A908C456282BA7F4002C269D /* KthNumber */ = {
+			isa = PBXGroup;
+			children = (
+				A908C457282BA7F4002C269D /* main.swift */,
+			);
+			path = KthNumber;
+			sourceTree = "<group>";
+		};
 		A927B04328291F1A0091CE57 /* NumberOfPAndYInString */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +401,7 @@
 				A952C4502827DE2C00FB1308 /* IntegerDescendingSort */,
 				A927B04328291F1A0091CE57 /* NumberOfPAndYInString */,
 				A942F759282A0A6D0011DAF6 /* CaesarCode */,
+				A908C456282BA7F4002C269D /* KthNumber */,
 				A972B0B5281BF34D00765E3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -395,6 +423,7 @@
 				A952C44F2827DE2C00FB1308 /* IntegerDescendingSort */,
 				A927B04228291F1A0091CE57 /* NumberOfPAndYInString */,
 				A942F758282A0A6D0011DAF6 /* CaesarCode */,
+				A908C455282BA7F4002C269D /* KthNumber */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -442,6 +471,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A908C454282BA7F4002C269D /* KthNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908C45B282BA7F4002C269D /* Build configuration list for PBXNativeTarget "KthNumber" */;
+			buildPhases = (
+				A908C451282BA7F4002C269D /* Sources */,
+				A908C452282BA7F4002C269D /* Frameworks */,
+				A908C453282BA7F4002C269D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KthNumber;
+			productName = KthNumber;
+			productReference = A908C455282BA7F4002C269D /* KthNumber */;
+			productType = "com.apple.product-type.tool";
+		};
 		A927B04128291F1A0091CE57 /* NumberOfPAndYInString */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A927B04828291F1A0091CE57 /* Build configuration list for PBXNativeTarget "NumberOfPAndYInString" */;
@@ -690,6 +736,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					A908C454282BA7F4002C269D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A927B04128291F1A0091CE57 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -761,11 +810,20 @@
 				A952C44E2827DE2C00FB1308 /* IntegerDescendingSort */,
 				A927B04128291F1A0091CE57 /* NumberOfPAndYInString */,
 				A942F757282A0A6D0011DAF6 /* CaesarCode */,
+				A908C454282BA7F4002C269D /* KthNumber */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A908C451282BA7F4002C269D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908C458282BA7F4002C269D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A927B03E28291F1A0091CE57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -881,6 +939,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A908C459282BA7F4002C269D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A908C45A282BA7F4002C269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3R3CK6WP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A927B04628291F1A0091CE57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1307,6 +1387,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A908C45B282BA7F4002C269D /* Build configuration list for PBXNativeTarget "KthNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908C459282BA7F4002C269D /* Debug */,
+				A908C45A282BA7F4002C269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A927B04828291F1A0091CE57 /* Build configuration list for PBXNativeTarget "NumberOfPAndYInString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
